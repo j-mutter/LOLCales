@@ -8,46 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		2C16D90017F9DC930084AD85 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C16D8FF17F9DC930084AD85 /* Foundation.framework */; };
-		2C16D90217F9DC930084AD85 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C16D90117F9DC930084AD85 /* CoreGraphics.framework */; };
-		2C16D90417F9DC930084AD85 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C16D90317F9DC930084AD85 /* UIKit.framework */; };
 		2C16D90A17F9DC930084AD85 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2C16D90817F9DC930084AD85 /* InfoPlist.strings */; };
 		2C16D90C17F9DC930084AD85 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C16D90B17F9DC930084AD85 /* main.m */; };
-		2C16D91017F9DC930084AD85 /* SHPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C16D90F17F9DC930084AD85 /* SHPAppDelegate.m */; };
-		2C16D91217F9DC930084AD85 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C16D91117F9DC930084AD85 /* Images.xcassets */; };
-		2C16D91917F9DC930084AD85 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C16D91817F9DC930084AD85 /* XCTest.framework */; };
-		2C16D91A17F9DC930084AD85 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C16D8FF17F9DC930084AD85 /* Foundation.framework */; };
-		2C16D91B17F9DC930084AD85 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C16D90317F9DC930084AD85 /* UIKit.framework */; };
-		2C16D92317F9DC930084AD85 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2C16D92117F9DC930084AD85 /* InfoPlist.strings */; };
-		2C16D92517F9DC930084AD85 /* LOLCalesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C16D92417F9DC930084AD85 /* LOLCalesTests.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		2C16D91C17F9DC930084AD85 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2C16D8F417F9DC930084AD85 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2C16D8FB17F9DC930084AD85;
-			remoteInfo = LOLCales;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		2C16D8FC17F9DC930084AD85 /* LOLCales.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LOLCales.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C16D8FF17F9DC930084AD85 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		2C16D90117F9DC930084AD85 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		2C16D90317F9DC930084AD85 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2C16D90717F9DC930084AD85 /* LOLCales-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LOLCales-Info.plist"; sourceTree = "<group>"; };
 		2C16D90917F9DC930084AD85 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2C16D90B17F9DC930084AD85 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2C16D90D17F9DC930084AD85 /* LOLCales-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LOLCales-Prefix.pch"; sourceTree = "<group>"; };
-		2C16D90E17F9DC930084AD85 /* SHPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHPAppDelegate.h; sourceTree = "<group>"; };
-		2C16D90F17F9DC930084AD85 /* SHPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHPAppDelegate.m; sourceTree = "<group>"; };
-		2C16D91117F9DC930084AD85 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		2C16D91717F9DC930084AD85 /* LOLCalesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LOLCalesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2C16D91817F9DC930084AD85 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		2C16D92017F9DC930084AD85 /* LOLCalesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LOLCalesTests-Info.plist"; sourceTree = "<group>"; };
-		2C16D92217F9DC930084AD85 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		2C16D92417F9DC930084AD85 /* LOLCalesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LOLCalesTests.m; sourceTree = "<group>"; };
+		2C16D92E17F9DD600084AD85 /* LOLCales-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LOLCales-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,19 +26,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C16D90217F9DC930084AD85 /* CoreGraphics.framework in Frameworks */,
-				2C16D90417F9DC930084AD85 /* UIKit.framework in Frameworks */,
 				2C16D90017F9DC930084AD85 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2C16D91417F9DC930084AD85 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2C16D91917F9DC930084AD85 /* XCTest.framework in Frameworks */,
-				2C16D91B17F9DC930084AD85 /* UIKit.framework in Frameworks */,
-				2C16D91A17F9DC930084AD85 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,7 +37,6 @@
 			isa = PBXGroup;
 			children = (
 				2C16D90517F9DC930084AD85 /* LOLCales */,
-				2C16D91E17F9DC930084AD85 /* LOLCalesTests */,
 				2C16D8FE17F9DC930084AD85 /* Frameworks */,
 				2C16D8FD17F9DC930084AD85 /* Products */,
 			);
@@ -88,7 +46,6 @@
 			isa = PBXGroup;
 			children = (
 				2C16D8FC17F9DC930084AD85 /* LOLCales.app */,
-				2C16D91717F9DC930084AD85 /* LOLCalesTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,9 +54,6 @@
 			isa = PBXGroup;
 			children = (
 				2C16D8FF17F9DC930084AD85 /* Foundation.framework */,
-				2C16D90117F9DC930084AD85 /* CoreGraphics.framework */,
-				2C16D90317F9DC930084AD85 /* UIKit.framework */,
-				2C16D91817F9DC930084AD85 /* XCTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -107,9 +61,6 @@
 		2C16D90517F9DC930084AD85 /* LOLCales */ = {
 			isa = PBXGroup;
 			children = (
-				2C16D90E17F9DC930084AD85 /* SHPAppDelegate.h */,
-				2C16D90F17F9DC930084AD85 /* SHPAppDelegate.m */,
-				2C16D91117F9DC930084AD85 /* Images.xcassets */,
 				2C16D90617F9DC930084AD85 /* Supporting Files */,
 			);
 			path = LOLCales;
@@ -120,26 +71,8 @@
 			children = (
 				2C16D90717F9DC930084AD85 /* LOLCales-Info.plist */,
 				2C16D90817F9DC930084AD85 /* InfoPlist.strings */,
+				2C16D92E17F9DD600084AD85 /* LOLCales-Prefix.pch */,
 				2C16D90B17F9DC930084AD85 /* main.m */,
-				2C16D90D17F9DC930084AD85 /* LOLCales-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		2C16D91E17F9DC930084AD85 /* LOLCalesTests */ = {
-			isa = PBXGroup;
-			children = (
-				2C16D92417F9DC930084AD85 /* LOLCalesTests.m */,
-				2C16D91F17F9DC930084AD85 /* Supporting Files */,
-			);
-			path = LOLCalesTests;
-			sourceTree = "<group>";
-		};
-		2C16D91F17F9DC930084AD85 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				2C16D92017F9DC930084AD85 /* LOLCalesTests-Info.plist */,
-				2C16D92117F9DC930084AD85 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -164,24 +97,6 @@
 			productReference = 2C16D8FC17F9DC930084AD85 /* LOLCales.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2C16D91617F9DC930084AD85 /* LOLCalesTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2C16D92B17F9DC930084AD85 /* Build configuration list for PBXNativeTarget "LOLCalesTests" */;
-			buildPhases = (
-				2C16D91317F9DC930084AD85 /* Sources */,
-				2C16D91417F9DC930084AD85 /* Frameworks */,
-				2C16D91517F9DC930084AD85 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2C16D91D17F9DC930084AD85 /* PBXTargetDependency */,
-			);
-			name = LOLCalesTests;
-			productName = LOLCalesTests;
-			productReference = 2C16D91717F9DC930084AD85 /* LOLCalesTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -191,11 +106,6 @@
 				CLASSPREFIX = SHP;
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = Jadedpixel;
-				TargetAttributes = {
-					2C16D91617F9DC930084AD85 = {
-						TestTargetID = 2C16D8FB17F9DC930084AD85;
-					};
-				};
 			};
 			buildConfigurationList = 2C16D8F717F9DC930084AD85 /* Build configuration list for PBXProject "LOLCales" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -210,7 +120,6 @@
 			projectRoot = "";
 			targets = (
 				2C16D8FB17F9DC930084AD85 /* LOLCales */,
-				2C16D91617F9DC930084AD85 /* LOLCalesTests */,
 			);
 		};
 /* End PBXProject section */
@@ -221,15 +130,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C16D90A17F9DC930084AD85 /* InfoPlist.strings in Resources */,
-				2C16D91217F9DC930084AD85 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2C16D91517F9DC930084AD85 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2C16D92317F9DC930084AD85 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,42 +140,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C16D91017F9DC930084AD85 /* SHPAppDelegate.m in Sources */,
 				2C16D90C17F9DC930084AD85 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2C16D91317F9DC930084AD85 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2C16D92517F9DC930084AD85 /* LOLCalesTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		2C16D91D17F9DC930084AD85 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2C16D8FB17F9DC930084AD85 /* LOLCales */;
-			targetProxy = 2C16D91C17F9DC930084AD85 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		2C16D90817F9DC930084AD85 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				2C16D90917F9DC930084AD85 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		2C16D92117F9DC930084AD85 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2C16D92217F9DC930084AD85 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -381,48 +256,6 @@
 			};
 			name = Release;
 		};
-		2C16D92C17F9DC930084AD85 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LOLCales.app/LOLCales";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "LOLCales/LOLCales-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "LOLCalesTests/LOLCalesTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		2C16D92D17F9DC930084AD85 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LOLCales.app/LOLCales";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "LOLCales/LOLCales-Prefix.pch";
-				INFOPLIST_FILE = "LOLCalesTests/LOLCalesTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -440,14 +273,6 @@
 			buildConfigurations = (
 				2C16D92917F9DC930084AD85 /* Debug */,
 				2C16D92A17F9DC930084AD85 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		2C16D92B17F9DC930084AD85 /* Build configuration list for PBXNativeTarget "LOLCalesTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2C16D92C17F9DC930084AD85 /* Debug */,
-				2C16D92D17F9DC930084AD85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
